@@ -1,0 +1,17 @@
+{
+  "name": "nuxt_app",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "kento",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.12.2"
+  },
+  "devDependencies": {}
+}
