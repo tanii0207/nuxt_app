@@ -12,6 +12,18 @@
 
 <script>
 export default {
+
+    validate({params}){
+        if(params.id == undefined ||params.pass == undefined){
+            return false;
+        }else{
+            return true;
+        }
+    },
+
+
+
+
     data:function(){
         return{
             title:'Login',
@@ -39,6 +51,15 @@ h1{
 }
 p{
     padding-top: 5px;
-    font-size:
+    font-size:20pt;
 }
+
+a{
+    font-size:16pt;
+}
+
+.right{
+    text-align:right;
+}
+
 </style>
