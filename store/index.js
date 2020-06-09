@@ -6,8 +6,18 @@ const createStore = () => {
             return{
                 message:'count number.',
                 counter:0,
+            };
+        },
+
+        mutations:{
+            count:function(state , obj){
+                state.message = obj.message;
+                state.counter += obj.add;
+            },
+            reset:function(state){
+                state.counter = 0;
             }
-        }
+        },
     })
 }
 
